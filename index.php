@@ -67,6 +67,12 @@ lugheader ('Home');
     </div>
 </div>
 
+<div class="credits">
+    <hr />
+    <span>sito hostato da</span><br />
+    <img src="/immagini/topix.jpg" alt="TopIX">
+</div>
+
 <?php
   lugfooter ();
 ?>

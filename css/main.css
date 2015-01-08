@@ -80,6 +80,15 @@ a:hover {
 	border-bottom: 0px solid #FFF;
 }
 
+.credits {
+	width: 20%;
+	margin: auto;
+	display: block;
+	padding-top: 30px;
+	clear: both;
+	text-align: center;
+}
+
 .alert {
 	width: 70%;
 	margin: auto;
