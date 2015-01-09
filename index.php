@@ -35,7 +35,7 @@ lugheader ('Home');
 
     <hr />
 
-    <div class="column half">
+    <div class="column preview">
         <iframe id="forum_embed" src="javascript:void(0)" scrolling="no" frameborder="0" width="100%" height="700">
         </iframe>
 
@@ -46,7 +46,7 @@ lugheader ('Home');
         </script>
     </div>
 
-    <div class="column half highlights">
+    <div class="column highlights">
         <p>
             Qui di seguito i riferimenti ad alcune delle discussioni più rilevanti transitate sulla mailing list. Vengono aggiornati una volta al mese, e pubblicati anche sulla newsletter di Italian Linux Society.
         </p>

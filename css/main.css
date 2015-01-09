@@ -127,11 +127,12 @@ a:hover {
 	float: left;
 }
 
-#introTabel .half {
-	width: 47%;
+#introTabel .previw {
+	width: 60%;
 }
 
-.highlights {
+#introTabel .highlights {
+	width: 35%;
 	padding-left: 20px;
 	margin-left: 20px;
 	border-left: 1px solid #333;
