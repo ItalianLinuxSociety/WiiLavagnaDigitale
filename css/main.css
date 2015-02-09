@@ -41,8 +41,8 @@ a:hover {
 	border-bottom:10px solid #444;
 }
 
-#header img {
-	padding-left: 20px;
+#header .logo {
+	padding-left: 15px;
 }
 
 #header #maintitle {
@@ -127,7 +127,7 @@ a:hover {
 	float: left;
 }
 
-#introTabel .previw {
+#introTabel .preview {
 	width: 60%;
 }
 

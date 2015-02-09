@@ -55,7 +55,7 @@ lugheader ('Home');
             <?php
 
             $contents = file ('data/highlights.txt');
-            for ($i = 0; $i < 20 && $i < count($contents); $i++) {
+            for ($i = 0; $i < 15 && $i < count($contents); $i++) {
                 list ($title, $link) = explode ('|', $contents[$i]);
                 ?>
                 <li><a href="<?php echo $link ?>"><?php echo $title ?></a></li>

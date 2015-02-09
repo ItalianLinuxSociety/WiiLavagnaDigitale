@@ -82,7 +82,7 @@ function lugheader ($title, $extracss = null, $extrajs = null, $custom_propertie
 
 <body>
     <div id="header">
-        <img src="/immagini/logo.png" alt="Wii Lavagna Digitale" />
+        <img src="/immagini/logo.png" class="logo" alt="Wii Lavagna Digitale" />
         <div id="maintitle">Wii Lavagna Digitale</div>
         <div id="payoff">Software e contenuti liberi per la scuola</div>
 
@@ -163,7 +163,7 @@ function lugfooter () {
             <div class="block">
                 <h2>Network</h2>
                 <div class="content">
-                    <script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=lugmap"></script>
+                    <script type="text/javaScript" src="http://www.linux.it/external/widgetils.php?referrer=wiildos"></script>
                     <div id="widgetils"></div>
                 </div>
             </div>
@@ -172,18 +172,23 @@ function lugfooter () {
         <div style="clear: both"></div>
     </div>
 
-    <!-- Piwik -->
-    <script type="text/javascript">
-        var pkBaseURL = (("https:" == document.location.protocol) ? "https://pergamena.lugbs.linux.it/" : "http://pergamena.lugbs.linux.it/");
-        document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-        </script><script type="text/javascript">
-        try {
-            var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-            piwikTracker.trackPageView();
-            piwikTracker.enableLinkTracking();
-        } catch( err ) {}
-    </script><noscript><p><img src="http://pergamena.lugbs.linux.it/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Code -->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.wiildos.it"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//pergamena.lugbs.linux.it/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 18]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//pergamena.lugbs.linux.it/piwik.php?idsite=18" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
 </body>
 </html>
 
