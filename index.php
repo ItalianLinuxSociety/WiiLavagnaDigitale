@@ -29,21 +29,15 @@ lugheader ('Home');
         </p>
     </div>
 
-    <div class="subscribe">
-        <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna/join" target="_blank">Iscriviti Subito!</a>
-    </div>
-
     <hr />
 
     <div class="column preview">
-        <iframe id="forum_embed" src="javascript:void(0)" scrolling="no" frameborder="0" width="100%" height="700">
-        </iframe>
-
-        <script type="text/javascript">
-            document.getElementById("forum_embed").src = "https://groups.google.com/forum/embed/?place=forum/wii_libera_la_lavagna" +
-                                                            "&showsearch=false&hideforumtitle=true&parenturl=" +
-                                                            encodeURIComponent(window.location.href);
-        </script>
+        <div class="subscribe">
+            <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna" target="_blank">Consulta Online</a>
+        </div>
+        <div class="subscribe">
+            <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna/join" target="_blank">Iscriviti Subito!</a>
+        </div>
     </div>
 
     <div class="column highlights">
