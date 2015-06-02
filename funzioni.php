@@ -117,7 +117,7 @@ function lugfooter () {
                     <br />
 
                     <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en_US" rel="license">
-                        <img src="http://i.creativecommons.org/l/zero/1.0/80x15.png" style="border-width:0" alt="Creative Commons License">
+                        <img src="/immagini/cczero.png" style="border-width:0" alt="Creative Commons License">
                     </a>
                 </span>
             </div>
