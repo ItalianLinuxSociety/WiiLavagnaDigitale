@@ -31,13 +31,16 @@ lugheader ('Home');
 
     <hr />
 
+    <div class="subscribe">
+        <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna/join" target="_blank">Iscriviti Subito!</a>
+    </div>
+
     <div class="column preview">
-        <div class="subscribe">
-            <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna" target="_blank">Consulta Online</a>
-        </div>
-        <div class="subscribe">
-            <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna/join" target="_blank">Iscriviti Subito!</a>
-        </div>
+        <p>
+            Ultimi messaggi pubblicati sulla mailing list. <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna">Clicca qui</a> per la consultazione completa.
+        </p>
+
+        <iframe src="http://ot.madbob.org/w/wii_libera_la_lavagna@googlegroups.com" style="width: 100%; border: 0px none; height: 450px"></iframe>
     </div>
 
     <div class="column highlights">
