@@ -1,3 +1,8 @@
+Easy-Dida, raccolta di software libero didattico|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/rQecmpMQ93M
+Piattaforma per videoconferenze|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/VolCo3dH8fU
+Spunti utili per la comunicazione aumentativa|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/MqULXDZnTac
+Estensione LibreOffice per disegnare schemi elettrici|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/dJEUtdGGATU
+Consigli per il lettore vocale su Linux|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/qm5y4WY8m-A
 LampSchool, versione 2016|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/95h5izBM1fw
 Manuale di LibreLogo, implementazione del linguaggio Logo per LibreOffice|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/wokYfC3nnYE
 Online la mappa delle scuole che hanno adottato LampSchool|https://groups.google.com/forum/#!topic/wii_libera_la_lavagna/2n0GHRxLgr4
