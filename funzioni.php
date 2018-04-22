@@ -1,6 +1,6 @@
 <?php
 /*
-  Copyright (C) 2015  Italian Linux Society - http://www.linux.it
+  Copyright (C) 2015/2018  Italian Linux Society - http://www.linux.it
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -30,15 +30,15 @@ function lugheader ($title, $extracss = null, $extrajs = null, $custom_propertie
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Nobile|Nobile:b" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
 
-    <meta name="dcterms.creator" content="Wii Lavagna Digitale" />
+    <meta name="dcterms.creator" content="Lavagna Libera" />
     <meta name="dcterms.type" content="Text" />
     <link rel="publisher" href="http://www.wiildos.it/" />
 
     <?php
 
     $properties = array ();
-    $properties ['og:site_name'] = 'Wii Lavagna Digitale';
-    $properties ['og:title'] = 'Wii Lavagna Digitale';
+    $properties ['og:site_name'] = 'Lavagna Libera';
+    $properties ['og:title'] = 'Lavagna Libera';
     $properties ['og:url'] = 'http://www.wiildos.it/';
     $properties ['og:image'] = 'http://www.wiildos.it/immagini/fb.png';
     $properties ['og:description'] = 'Software e contenuti liberi a scuola';
@@ -77,13 +77,13 @@ function lugheader ($title, $extracss = null, $extrajs = null, $custom_propertie
         }
     ?>
 
-    <title>Wii Lavagna Digitale | <?php echo $title; ?></title>
+    <title>Lavagna Libera | <?php echo $title; ?></title>
 </head>
 
 <body>
     <div id="header">
-        <img src="/immagini/logo.png" class="logo" alt="Wii Lavagna Digitale" />
-        <div id="maintitle">Wii Lavagna Digitale</div>
+        <img src="/immagini/logo.png" class="logo" alt="Lavagna Libera" />
+        <div id="maintitle">Lavagna Libera</div>
         <div id="payoff">Software e contenuti liberi per la scuola</div>
 
         <div class="menu">
@@ -93,7 +93,7 @@ function lugheader ($title, $extracss = null, $extrajs = null, $custom_propertie
 
             <p class="social">
                 <!-- Icone prese da http://kooc.co.uk/need-some-up-to-date-social-media-icons -->
-                <a href="https://groups.google.com/forum/feed/wii_libera_la_lavagna/msgs/rss.xml?num=15"><img src="/immagini/rss.png"></a>
+                <a href="https://groups.google.com/forum/feed/lavagnalibera/msgs/rss.xml?num=15"><img src="/immagini/rss.png"></a>
             </p>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 /*
-  Copyright (C) 2015  Italian Linux Society - http://www.linux.it
+  Copyright (C) 2015/2018  Italian Linux Society - http://www.linux.it
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU Affero General Public License as
@@ -25,22 +25,22 @@ lugheader ('Home');
 <div id="introTabel">
     <div>
         <p>
-            <b>Wii Lavagna Digitale</b> (più spesso abbreviato in WiiLD) è la comunità italiana di riferimento per il software ed i contenuti liberi per la scuola. Sulla nostra mailing list, popolata da docenti, tecnici e simpatizzanti, si discute dell'utilizzo di applicazioni opensource in classe, si segnalano risorse e contenuti liberamente accessibili a supporto della didattica, si commentano fatti d'attualità in qualche modo connessi al mondo della tecnologia e della scuola, ed è possibile chiedere supporto per problematiche tecniche.
+            <b>Lavagna Libera</b> è la comunità italiana di riferimento per il software ed i contenuti liberi per la scuola. Sulla nostra mailing list, popolata da docenti, tecnici e simpatizzanti, si discute dell'utilizzo di applicazioni opensource in classe, si segnalano risorse e contenuti liberamente accessibili a supporto della didattica, si commentano fatti d'attualità in qualche modo connessi al mondo della tecnologia e della scuola, ed è possibile chiedere supporto per problematiche tecniche.
         </p>
     </div>
 
     <hr />
 
     <div class="subscribe">
-        <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna/join" target="_blank">Iscriviti Subito!</a>
+        <a href="https://groups.google.com/forum/?hl=it#!forum/lavagnalibera/join" target="_blank">Iscriviti Subito!</a>
     </div>
 
     <div class="column preview">
         <p>
-            Ultimi messaggi pubblicati sulla mailing list. <a href="https://groups.google.com/forum/?hl=it#!forum/wii_libera_la_lavagna">Clicca qui</a> per la consultazione completa.
+            Ultimi messaggi pubblicati sulla mailing list. <a href="https://groups.google.com/forum/?hl=it#!forum/lavagnalibera">Clicca qui</a> per la consultazione completa.
         </p>
 
-        <iframe src="http://ot.madbob.org/w/wii_libera_la_lavagna@googlegroups.com" style="width: 100%; border: 0px none; height: 450px"></iframe>
+        <iframe src="http://ot.madbob.org/w/lavagnalibera@googlegroups.com" style="width: 100%; border: 0px none; height: 450px"></iframe>
     </div>
 
     <div class="column highlights">
