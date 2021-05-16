@@ -35,32 +35,27 @@ lugheader ('Home');
         <a href="https://groups.google.com/forum/?hl=it#!forum/lavagnalibera/join" target="_blank">Iscriviti Subito!</a>
     </div>
 
-    <div class="column preview">
+    <div class="preview">
         <p>
             Ultimi messaggi pubblicati sulla mailing list. <a href="https://groups.google.com/forum/?hl=it#!forum/lavagnalibera">Clicca qui</a> per la consultazione completa.
         </p>
 
-        <iframe src="http://ot.madbob.org/w/lavagnalibera@googlegroups.com" style="width: 100%; border: 0px none; height: 450px"></iframe>
-    </div>
+        <?php
 
-    <div class="column highlights">
-        <p>
-            Qui di seguito i riferimenti ad alcune delle discussioni più rilevanti transitate sulla mailing list. Vengono aggiornati una volta al mese, e pubblicati anche sulla newsletter di Italian Linux Society.
-        </p>
+        $url = 'https://groups.google.com/forum/feed/lavagnalibera/msgs/rss.xml?num=50';
+        \Feed::$cacheDir = __DIR__ . '/tmp';
+        \Feed::$cacheExpire = '5 hours';
+        $rss = \Feed::loadRss($url);
 
-        <ul>
-            <?php
+        ?>
 
-            $contents = file ('data/highlights.txt');
-            for ($i = 0; $i < 15 && $i < count($contents); $i++) {
-                list ($title, $link) = explode ('|', $contents[$i]);
-                ?>
-                <li><a href="<?php echo $link ?>"><?php echo $title ?></a></li>
-                <?php
-            }
-
-            ?>
-        </ul>
+        <div class="feed">
+            <?php foreach ($rss->item as $item): ?>
+                <hr>
+                <h4 style="margin:4px"><?php echo $item->title ?></h4>
+                <p style="margin:0px"><?php echo date('d/m/Y H:i', (string) $item->timestamp) ?></p>
+            <?php endforeach ?>
+        </div>
     </div>
 </div>
 
